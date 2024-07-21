@@ -1,12 +1,45 @@
-  /* PC、スマホ共通スタイル */
-  * {
-    box-sizing: border-box;
-  }
-  
-  p {
-    font-size: 15px;
-  }
-  
-  body {
-    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
-  }
+/* PC、スマホ共通スタイル */
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 15px;
+}
+
+body {
+  max-width: 1080px;
+  margin: 0 auto 0 auto;
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+/* ヘッダー */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ナビゲーションのレイアウト */
+#nav-pc {
+  font-size: 14px;
+}
+
+#nav-pc ul {
+  display: flex;
+  padding-left: 0;
+}
+
+#nav-pc li {
+  list-style: none;
+}
+
+/* ナビゲーションのリンクの装飾設定 */
+#nav-pc a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #0d0d0d;
+}
+
+#nav-pc a:hover {
+  text-decoration: underline;
+}
